@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pengenalan Javascript</title>
+		<meta name="author" content="zakiah turrasyidah">
+	</head>
+	<body>
+		<p id="date">Tanggal : </p>
+		<P id="output"></p>
+		<h1>Javascript</h1>
+		<script src="script.js"></script>
+		<script src="script-ariable-type-data.js"></script>
+		<script>
+			//1. Tampilkan output Javascript dengan fungsi alert
+			alert("Hallo in Javascript");
+			//2. Menampilkan output js dengan console.log
+			console.log("Halo ini juga Javascript")
+			//3. Menampilkan output js dengan document.write
+			document.write("output js dengan document write")
+			document.write("<br>")
+			document.write("<i>output baris kedua dengan document write</i>")
+			//4. Menampilkan output js dengan innerHTML 
+			document.getElementById("output").innerHTML = "output js dengan innerHTML"
+			document.getElementById("date").innerHTML += new Date()
+		</script>
+	</body>
+</html>
